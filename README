@@ -1,0 +1,5 @@
+Activate virtual environment: source virtualenv/bin/activate
+
+Spin up server: python3 manage.py runserver    
+
+Create new app: django-admin startapp "app-name"
