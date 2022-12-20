@@ -7,4 +7,8 @@ def home(request):
     return render(request, 'home/welcome.html', {'today': datetime.today()})
 
 
-    
+def request_page(request):
+    if(request.path == '/login/'):
+        return render(request, 'home/login.html', {})
+    else:
+        return None
